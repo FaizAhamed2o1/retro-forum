@@ -1,0 +1,25 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap");
+
+body {
+  font-family: "Mulish", sans-serif;
+}
+
+/* Style the button */
+.shrink-button {
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+
+/* Add animation on click */
+.shrink-button:active {
+  transform: scale(0.9);
+  background-color: #797dfce6;
+}
+
+.hero-container {
+  background-image: url("../assets/images/bgbanner.png");
+  background-color: #12132d;
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: 110%;
+}
